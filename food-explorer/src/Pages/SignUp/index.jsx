@@ -1,10 +1,12 @@
 import {Container, Form } from './styles'
 import {Input} from '../../Components/Input'
 import {Button} from  '../../Components/Button'
+import ImageExplorer from '../../img/baner.svg'
 export function SignUp (){
     return (
       <Container>
         <div>
+          <ImageExplorer/>
         <h1>food explorer</h1>
         </div>
 

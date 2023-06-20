@@ -1,12 +1,15 @@
-import {Container, Form , BackgroundLogin } from './styles'
+import {Container, Form } from './styles'
 import {Input} from '../../Components/Input'
 import {Button} from  '../../Components/Button'
+import ImageExplorer from '../../img/baner.svg'
+
 export function SignIn (){
     return (
       <Container>
         <div>
-       
-        <h1>Food explorer</h1>
+        
+        <img src={ImageExplorer} alt="" />
+        
         </div>
         <Form>
           <h1>Faça login</h1>
@@ -14,7 +17,7 @@ export function SignIn (){
           <Input label="Email" place="Exemplo: exemplo@exemplo.com.br"/>
           <Input label="Senha" place="Senha"/>
           <Button title="Entrar"/>
-          <a href="#">Criar Uma conta</a>
+          <a href="#">Criar uma conta</a>
         </Form>
        
         

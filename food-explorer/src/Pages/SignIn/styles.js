@@ -1,5 +1,5 @@
 import styled from  'styled-components'
-import bannerImg from '../../assets/baner.svg'
+
 
 
 
@@ -29,11 +29,7 @@ justify-content: space-between;
 `
 
 
-export const BackgroundLogin = styled.div`
- flex: 1; //para ocupar todo o espaço que está disponivel!
-  background: url(${bannerImg});
-  background-size: cover;
-`
+
 
 
 export const Form = styled.form`
